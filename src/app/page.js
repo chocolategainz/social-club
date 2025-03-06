@@ -16,6 +16,7 @@ src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     />
     </div>
 
+{/*1*/}
 <br />
 <div className = "flex gap-5 items-center content-center">
 <Image
@@ -37,19 +38,31 @@ With live music playing in the background and a relaxed atmosphere, attendees ra
  </div>
 </div>
 
+{/*2*/}
+<br />
+
+
+<div className = "flex justify-end mr-4"> 
+ <div className = "flex-1 content-center">
+ <h1>Get Lit</h1> 
+<p className = "line-clamp-4 leading-relaxed content-center"> 
+A vibrant party pulses with energy as friends and newcomers alike dance to the rhythm of the music, their laughter blending with the beat. 
+With drinks in hand and a shared excitement in the air, the night becomes a celebration of togetherness, where every moment is filled with joy, connection, and unforgettable memories.
+</p>
+ </div> 
 
 <Image
 src="/yingyi-dai-khJJqciKS10-unsplash.jpg"
-alt="group of friends together smiling"
+alt="A lit up sign saying Let's Party"
 loading="lazy"
 width= {420}
 height= {420}
-className="rounded-full object-cover aspect-square"
-id="smiles"
-/>
+className=" rounded-full object-cover aspect-square"/>
+</div>
 
-
-<div>
+{/*3*/}
+<br />
+<div className = "flex gap-5 items-center content-center">
 <Image
 src="/Together We Are Stronger.jpg"
 alt="inspirational paper message"
@@ -58,12 +71,21 @@ width= {420}
 height= {420}
 className="rounded-full object-cover aspect-square"
 />
+
+<br />
+<div className = "flex-1">
+  <h1>Togetherness</h1>
+  <p className = "line-clamp-4 leading-relaxed">
+  Our community gathering fills the space with laughter and conversation as people come together to share stories, enjoy good food, and build new connections.
+  </p>
+ </div>
 </div>
 
+{/*RSVP - Join Us */}
 <div className="secondaryPicture relative w-full h-[600px] aspect-[16/9]">
   <Image 
     src="/kobby-mendez-xBFTjrMIC0c-unsplash.jpg"
-    alt="Beautiful lights with young adults raising their hands"
+    alt="A row of 3 cocktail glasses"
     fill
     style = {{objectFit: "cover"}}
     loading="lazy"
