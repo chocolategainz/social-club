@@ -8,7 +8,7 @@ export default function Home() {
     <div className="main-picture relative w-full h-[932px]">
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
-    alt="friends jumping"
+    alt="friends sitting down and talking"
     fill
     style={{objectFit: "cover"}}
     loading= "lazy"
@@ -17,20 +17,20 @@ src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     </div>
 
 {/*1*/}
-<br />
-<div className = "flex gap-5 items-center content-center">
+
+<div className = "flex gap-5 items-center mt-8">
 <Image
 src="/elevate-snnhGYNqm44-unsplash.jpg"
-alt="friends drinking beer"
+alt="A group of friends colliding their beers together at a lively pub"
 loading="lazy"
 width= {420}
 height= {420}
-className="rounded-full object-cover aspect-square shrink-0 mr-4"
+className="rounded-full object-cover aspect-square shrink-0 ml-4"
 />
 
-<br />
-<div className = "flex-1 ">
- <h1>Good Vibes</h1> 
+
+<div className = "flex-1 mt-8">
+ <h1 className = "title">Good Vibes</h1> 
 <p className = "line-clamp-4 leading-relaxed"> 
 A lively beer-tasting event brings together friends and strangers alike to sample a variety of craft brews while enjoying good conversation. 
 With live music playing in the background and a relaxed atmosphere, attendees raise their glasses, share their favorite flavors, and connect over their love for great beer.  
@@ -39,13 +39,11 @@ With live music playing in the background and a relaxed atmosphere, attendees ra
 </div>
 
 {/*2*/}
-<br />
 
-
-<div className = "flex justify-end mr-4"> 
- <div className = "flex-1 content-center">
- <h1>Get Lit</h1> 
-<p className = "line-clamp-4 leading-relaxed content-center"> 
+<div className="flex items-center gap-6 mx-4 mt-8"> 
+ <div className="flex-1">
+ <h1 className="title">Get Lit</h1> 
+<p className ="line-clamp-4 leading-relaxed"> 
 A vibrant party pulses with energy as friends and newcomers alike dance to the rhythm of the music, their laughter blending with the beat. 
 With drinks in hand and a shared excitement in the air, the night becomes a celebration of togetherness, where every moment is filled with joy, connection, and unforgettable memories.
 </p>
@@ -53,28 +51,28 @@ With drinks in hand and a shared excitement in the air, the night becomes a cele
 
 <Image
 src="/yingyi-dai-khJJqciKS10-unsplash.jpg"
-alt="A lit up sign saying Let's Party"
+alt="A lit up sign saying 'Let's Party'"
 loading="lazy"
-width= {420}
-height= {420}
-className=" rounded-full object-cover aspect-square"/>
+width={420}
+height={420}
+className="rounded-full object-cover aspect-square shrink-0"/>
 </div>
 
 {/*3*/}
-<br />
-<div className = "flex gap-5 items-center content-center">
+
+<div className="flex gap-5 items-center mt-8">
 <Image
 src="/Together We Are Stronger.jpg"
-alt="inspirational paper message"
+alt="paper cut out human figures joined hand in hand"
 loading="lazy"
-width= {420}
-height= {420}
-className="rounded-full object-cover aspect-square"
+width={420}
+height={420}
+className="rounded-full object-cover aspect-square ml-4 shrink-0"
 />
 
-<br />
-<div className = "flex-1">
-  <h1>Togetherness</h1>
+
+<div className = "flex-1 mt-8">
+  <h1 className = "title">Togetherness</h1>
   <p className = "line-clamp-4 leading-relaxed">
   Our community gathering fills the space with laughter and conversation as people come together to share stories, enjoy good food, and build new connections.
   </p>
@@ -87,18 +85,20 @@ className="rounded-full object-cover aspect-square"
     src="/kobby-mendez-xBFTjrMIC0c-unsplash.jpg"
     alt="A row of 3 cocktail glasses"
     fill
-    style = {{objectFit: "cover"}}
+    style={{objectFit: "cover"}}
     loading="lazy"
-    className='saturate-50'
+    className="saturate-50 mt-8"
   />
 </div>
 
+{/** 
 <div className = "footer">
   <h5>Location</h5>
   <h1> Demo Street</h1>
   <h1>London, E12 345,</h1>
   <h1> United Kingdom</h1>
 </div>
+*/}
  </div>
   ) 
 }
