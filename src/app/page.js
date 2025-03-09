@@ -1,5 +1,5 @@
 import Image from 'next/image';
-
+import Animated from './Animated';
 
 export default function Home() {
   return(
@@ -14,6 +14,7 @@ src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     loading= "lazy"
     className="saturate-50"
     />
+    <Animated />
     </div>
 
 {/*1*/}
