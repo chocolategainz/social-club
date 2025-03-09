@@ -1,21 +1,21 @@
 "use client";
 import { useState , useEffect } from "react";
-import { motion } from "motion";
+import { motion } from "framer-motion";
 
 {/*Minglehub*/}
 {/*Making new friends has never been made more easier */}
 
 const TypewriterEffect = ({text}) => {
-    [displayedText , setDisplayedText] = useState("");
+ const [displayedText , setDisplayedText] = useState("");
 
     useEffect(() => {
         let i = 0;
 const interval = setInterval (() => {
     if(i < text.length) {
-        setDisplayedText((prev) => prev + text[i]);
+        setDisplayedText((prev) => prev + text.charAt(i));
         i++;
     }else{
-        clearIntervaal(interval);
+        clearInterval(interval);
     }
     }, 100);
 
