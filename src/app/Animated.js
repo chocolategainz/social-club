@@ -1,34 +1,32 @@
 "use client";
-import { useState , useEffect } from "react";
+import { useState , useEffect, useMemo } from "react";
 import { motion } from "framer-motion";
 
-{/*Minglehub*/}
-{/*Making new friends has never been made more easier */}
+const useAnimate = (text, speed = 20) => {
+    const [index , setIndex] = useState(0);
+    const displayText = useMemo(() => text.slice(0, index), [index]);
+useEffect(() => {
+    if (index >= text.length)
+        return;
 
-const TypewriterEffect = ({text}) => {
- const [displayedText , setDisplayedText] = useState("");
+    const timeoutId = setTimeout(() => {
+        setIndex(i => i + 1);
+    }, speed);
 
-    useEffect(() => {
-        let i = 0;
-const interval = setInterval (() => {
-    if(i < text.length) {
-        setDisplayedText((prev) => prev + text.charAt(i));
-        i++;
-    }else{
-        clearInterval(interval);
-    }
-    }, 100);
-
-    return () => clearInterval (interval);
-} , [text]);
-
-return (
-    <motion.h1 className = "text-2x1 font-bold">
-    {displayedText}
-    </motion.h1>
-  );
+    return () => {
+        clearTimeout(timeoutId);
+    };
+}, [index, text, speed]);
+return displayText;
 };
 
+
+
 export default function App() {
-    return <TypewriterEffect text = "Minglehub" />
+   const text = useAnimate("MINGLEHUB", 100);
+    return(
+        <motion.h1 className="text-2x1 font-bold">
+       <p>{text}</p>     
+        </motion.h1>
+    ); 
 }
