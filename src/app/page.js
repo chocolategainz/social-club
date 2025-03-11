@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import Animated from './Animated';
 
+
 export default function Home() {
   return(
   <div className="home">
-  
+
     <div className="main-picture relative w-full h-[932px]">
       
 <Image 
@@ -15,10 +16,9 @@ src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     loading= "lazy"
     className="saturate-50"
     />
-    
+ <Animated />
     </div>
 
-  <Animated />
 
 {/*1*/}
 

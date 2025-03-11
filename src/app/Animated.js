@@ -20,12 +20,10 @@ useEffect(() => {
 return displayText;
 };
 
-
-
 export default function App() {
-   const text = useAnimate("MINGLEHUB", 100);
+   const text = useAnimate("MINGLEHUB.", 80);
     return(
-        <motion.h1 className="text-2x1 font-bold">
+        <motion.h1 className="animatedText">
        <p>{text}</p>     
         </motion.h1>
     ); 
