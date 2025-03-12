@@ -40,5 +40,35 @@ body {
   width: 100%;
   top: 60%;
   transform: translateY(-50%);
-  color:#F2F2F2;
+  
+}
+
+.modal {
+  position:absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  transform: translateY(-50%);
+  top: 80%;
+  font-size: 26px;
+}
+
+.location {
+  bottom: 16%;
+  font-size:large;
+}
+
+.overlayTitle {
+ position:absolute;
+ bottom: 40%;
+ font-family: "Miltonian Tattoo", serif;
+ text-align: center;
+font-size: 160px;
+}
+
+.overlayText {
+  position:absolute;
+  top: 60%;
+  font-size:large;
 }

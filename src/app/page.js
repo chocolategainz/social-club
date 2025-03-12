@@ -1,13 +1,12 @@
 import Image from 'next/image';
 import Animated from './Animated';
-
+import Modal from './Modal';
 
 export default function Home() {
   return(
   <div className="home">
 
-    <div className="main-picture relative w-full h-[932px]">
-      
+    <div className="main-picture relative w-full h-[932px]"> 
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     alt="friends sitting down and talking"
@@ -16,7 +15,10 @@ src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     loading= "lazy"
     className="saturate-50"
     />
+    {/*Location*/}
+      <p className = "location absolute inset-0 flex flex-col items-center justify-center text-center px-4">123 Demo Street, London, GN8 4B3</p>
  <Animated />
+   <Modal />
     </div>
 
 
@@ -85,6 +87,7 @@ className="rounded-full object-cover aspect-square ml-4 shrink-0"
 
 {/*RSVP - Join Us */}
 <div className="secondaryPicture relative w-full h-[600px] aspect-[16/9]">
+
   <Image 
     src="/kobby-mendez-xBFTjrMIC0c-unsplash.jpg"
     alt="A row of 3 cocktail glasses"
@@ -93,17 +96,13 @@ className="rounded-full object-cover aspect-square ml-4 shrink-0"
     loading="lazy"
     className="saturate-50 mt-8"
   />
+<div className = "absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+<h1 className = "overlayTitle">RSVP</h1>
+<p className = "overlayText text-white">Your +1s and +2s are always welcome! Just let us know in advance so we can make sure there's enough drinks for everyone.</p>
+  </div>
+   <Modal />
 </div>
-
-{/** 
-<div className = "footer">
-  <h5>Location</h5>
-  <h1> Demo Street</h1>
-  <h1>London, E12 345,</h1>
-  <h1> United Kingdom</h1>
-</div>
-*/}
  </div>
-  ) 
-}
+  );
+};
 
