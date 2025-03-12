@@ -6,7 +6,7 @@ export default function Home() {
   return(
   <div className="home">
 
-    <div className="main-picture relative w-full h-[932px]"> 
+    <div className="main-picture relative w-full min-h-screen"> 
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     alt="friends sitting down and talking"
@@ -16,7 +16,7 @@ src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     className="saturate-50"
     />
     {/*Location*/}
-      <p className = "location absolute inset-0 flex flex-col items-center justify-center text-center px-4">123 Demo Street, London, GN8 4B3</p>
+      <p className = "location absolute inset-0 flex flex-col items-center justify-center text-center px-2 sm:px-4 text-lg sm:text-xl md:text-2x1 lg:text-3x1 text-white font-semibold">123 Demo Street, London, GN8 4B3</p>
  <Animated />
    <Modal />
     </div>
@@ -24,7 +24,7 @@ src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
 
 {/*1*/}
 
-<div className = "flex gap-5 items-center mt-8">
+<div className = "flex gap-3 sm:gap-5 flex-col sm:flex-row mt-8 px-2 sm:px-4 ">
 <Image
 src="/elevate-snnhGYNqm44-unsplash.jpg"
 alt="A group of friends colliding their beers together at a lively pub"
@@ -96,9 +96,9 @@ className="rounded-full object-cover aspect-square ml-4 shrink-0"
     loading="lazy"
     className="saturate-50 mt-8"
   />
-<div className = "absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-<h1 className = "overlayTitle">RSVP</h1>
-<p className = "overlayText text-white">Your +1s and +2s are always welcome! Just let us know in advance so we can make sure there's enough drinks for everyone.</p>
+<div className = "rsvp absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+<h1 className = "overlayTitle absolute bottom-[40%] md:bottom-[60%] text-white" >RSVP</h1>
+<p className = "overlayText text-white md:top-[50%] text-sm sm:text-base sm:max-w-sm md:text-lg lg:text-xl max-w-sm md:max-w-md lg:max-w-lg px-4">Your +1s and +2s are always welcome! Just let us know in advance so we can make sure there's enough drinks for everyone.</p>
   </div>
    <Modal />
 </div>

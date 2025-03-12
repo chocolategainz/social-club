@@ -21,7 +21,7 @@ return displayText;
 };
 
 export default function App() {
-   const text = useAnimate("MINGLEHUB.", 80);
+   const text = useAnimate("MINGLEHUB.", 150);
     return(
         <motion.h1 className="animatedText">
        <p>{text}</p>     
