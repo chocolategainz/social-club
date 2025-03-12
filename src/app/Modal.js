@@ -60,25 +60,25 @@ function validationForm() {
                 <form className="mt-4 space-y-4" onSubmit={handleSubmit}>
                   <div>
                     <label className="block text-sm text-black font-medium">First Name (Required)</label>
-                    <input type="text" value={firstName} onChange={(e) => setFirstName(e.target.value)} className="w-full border p-2 rounded" />
+                    <input type="text" value={firstName} onChange={(e) => setFirstName(e.target.value)} className="w-full border p-2 rounded text-black" />
                     {errors.firstName && <p className="text-red-500 text-sm">{errors.firstName}</p>}
                   </div>
 
                   <div>
                     <label className="block text-sm text-black font-medium">Surname (Required)</label>
-                    <input type="text" value={surname} onChange={(e) => setSurname(e.target.value)} className="w-full border p-2 rounded" />
+                    <input type="text" value={surname} onChange={(e) => setSurname(e.target.value)} className="w-full border p-2 rounded text-black" />
                     {errors.surname && <p className="text-red-500 text-sm">{errors.surname}</p>}
                   </div>
 
                   <div>
                     <label className="block text-sm text-black font-medium">Email (Required)</label>
-                    <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full border p-2 rounded" />
+                    <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full border p-2 rounded text-black" />
                     {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
                   </div>
 
                   <div>
                     <label className="block text-sm text-black font-medium">Phone Number (Required)</label>
-                    <input type="tel" value={phone} onChange={(e) => setPhone(e.target.value)} className="w-full border p-2 rounded" />
+                    <input type="tel" value={phone} onChange={(e) => setPhone(e.target.value)} className="w-full border p-2 rounded text-black" />
                     {errors.phone && <p className="text-red-500 text-sm">{errors.phone}</p>}
                   </div>
 
