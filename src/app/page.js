@@ -14,7 +14,7 @@ src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     className="saturate-50 object-cover"
     />
     {/*Location*/}
-      <p className = "location absolute inset-0 flex flex-col items-center justify-center text-center px-2 sm:px-4 text-lg sm:text-xl md:text-2x1 lg:text-3x1 text-white font-semibold">123 Demo Street, London, GN8 4B3</p>
+      <p className = "location absolute inset-0 flex flex-col items-center justify-center text-center px-2 sm:px-4 text-lg sm:text-xl text-white font-semibold">123 Demo Street, London, GN8 4B3</p>
  <Animated />
    <Modal />
     </div>
