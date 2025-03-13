@@ -29,7 +29,7 @@ alt="A group of friends colliding their beers together at a lively pub"
 loading="lazy"
 width={420}
 height={420}
-className="rounded-full object-cover aspect-square w-full max-w-[420px]"
+className="rounded-full object-cover aspect-square max-w-full w-full max-w-[420px] sm:w-auto"
 />
 
 
