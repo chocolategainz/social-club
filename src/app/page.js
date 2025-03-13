@@ -6,7 +6,7 @@ export default function Home() {
   return(
   <div className="home">
 
-    <div className="main-picture relative w-full h-full min-h-screen flex items-center justify-center"> 
+    <div className="main-picture relative w-full min-h-screen flex items-center justify-center"> 
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     alt="friends sitting down and talking"
@@ -59,7 +59,7 @@ alt="A lit up sign saying 'Let's Party'"
 loading="lazy"
 width={420}
 height={420}
-className="rounded-full object-cover aspect-square shrink-0"/>
+className="rounded-full object-cover aspect-square max-w-full"/>
 </div>
 
 {/*3*/}
