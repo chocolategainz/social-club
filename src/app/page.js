@@ -11,9 +11,7 @@ export default function Home() {
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     alt="friends sitting down and talking"
     fill
-    style={{objectFit: "cover"}}
-    loading= "lazy"
-    className="saturate-50"
+    className="saturate-50 object-cover"
     />
     {/*Location*/}
       <p className = "location absolute inset-0 flex flex-col items-center justify-center text-center px-2 sm:px-4 text-lg sm:text-xl md:text-2x1 lg:text-3x1 text-white font-semibold">123 Demo Street, London, GN8 4B3</p>
@@ -31,7 +29,7 @@ alt="A group of friends colliding their beers together at a lively pub"
 loading="lazy"
 width= {420}
 height= {420}
-className="rounded-full object-cover aspect-square shrink-0 ml-4"
+className="rounded-full object-cover aspect-square shrink-0 ml-4 w-full max-w-[420px]"
 />
 
 
@@ -92,9 +90,8 @@ className="rounded-full object-cover aspect-square ml-4 shrink-0"
     src="/kobby-mendez-xBFTjrMIC0c-unsplash.jpg"
     alt="A row of 3 cocktail glasses"
     fill
-    style={{objectFit: "cover"}}
     loading="lazy"
-    className="saturate-50 mt-8"
+    className="saturate-50 mt-8 object-cover"
   />
 <div className = "rsvp absolute inset-0 flex flex-col items-center justify-center text-center px-4">
 <h1 className = "overlayTitle absolute bottom-[40%] md:bottom-[60%] text-white" >RSVP</h1>
