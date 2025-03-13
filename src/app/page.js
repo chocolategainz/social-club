@@ -44,7 +44,7 @@ With live music playing in the background and a relaxed atmosphere, attendees ra
 
 {/*2*/}
 
-<div className="flex items-center gap-6 mx-4 mt-8"> 
+<div className="flex items-center gap-5 mx-4 mt-8"> 
  <div className="flex-1">
  <h1 className="title">Get Lit</h1> 
 <p className ="line-clamp-4 leading-relaxed"> 
@@ -59,7 +59,7 @@ alt="A lit up sign saying 'Let's Party'"
 loading="lazy"
 width={420}
 height={420}
-className="rounded-full object-cover aspect-square max-w-full"/>
+className="rounded-full object-cover aspect-square shrink-0"/>
 </div>
 
 {/*3*/}
