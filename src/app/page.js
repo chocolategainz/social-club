@@ -6,7 +6,7 @@ export default function Home() {
   return(
   <div className="home">
 
-    <div className="main-picture relative w-full min-h-screen"> 
+    <div className="main-picture relative w-full h-full min-h-screen flex items-center justify-center"> 
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     alt="friends sitting down and talking"
@@ -22,14 +22,14 @@ src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
 
 {/*1*/}
 
-<div className = "flex gap-3 sm:gap-5 flex-col sm:flex-row mt-8 px-2 sm:px-4 ">
+<div className = "flex flex-wrap gap-4 md:gap-6 flex-col sm:flex-row mt-8 px-2 sm:px-4">
 <Image
 src="/elevate-snnhGYNqm44-unsplash.jpg"
 alt="A group of friends colliding their beers together at a lively pub"
 loading="lazy"
-width= {420}
-height= {420}
-className="rounded-full object-cover aspect-square shrink-0 ml-4 w-full max-w-[420px]"
+width={420}
+height={420}
+className="rounded-full object-cover aspect-square w-full max-w-[420px]"
 />
 
 
