@@ -25,7 +25,7 @@ src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
 
 {/*1*/}
 
-<div className = "flex flex-wrap gap-4 md:gap-6 flex-col sm:flex-row mt-8 px-2 sm:px-4">
+<div className = "container flex flex-wrap gap-4 md:gap-6 flex-col sm:flex-row mt-8 px-2 sm:px-4">
 <Image
 src="/elevate-snnhGYNqm44-unsplash.jpg"
 alt="A group of friends colliding their beers together at a lively pub"
@@ -86,7 +86,7 @@ className="rounded-full object-cover aspect-square ml-4 shrink-0"
  </div>
 </div>
 
-{/*RSVP - Join Us */}
+{/*RSVP - Join Us*/} 
 <div className="secondaryPicture relative w-full h-[600px] aspect-[16/9]">
 
   <Image 
