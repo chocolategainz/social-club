@@ -33,6 +33,13 @@ body {
   box-sizing:border-box;
 }
 
+@media(max-width: 768px) {
+  body {
+    display:flex;
+    justify-content: center;
+  }
+}
+
 .miltonian-tattoo-regular , .title {
   font-family: "Miltonian Tattoo", serif;
   font-weight: 400;
