@@ -6,7 +6,8 @@ export default function Home() {
   return(
   <div className="home">
 
-    <div className="main-picture relative w-full sm:max-w-full min-h-screen flex items-center justify-center"> 
+<div className="parent w-full">
+    <div className="main-picture relative w-full min-h-screen flex items-center justify-center"> 
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     alt="friends sitting down and talking"
@@ -18,7 +19,7 @@ src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
  <Animated />
    <Modal />
     </div>
-
+</div>
 
 {/*1*/}
 
