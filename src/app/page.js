@@ -8,12 +8,13 @@ export default function Home() {
   <div className="home">
 
 
-    <div className="main-picture h-[calc(100vh)] relative flex  justify-center"> 
+    <div className="main-picture h-[calc(100vh)] w-full relative flex justify-center"> 
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     alt="friends sitting down and talking"
-    className="saturate-50 object-cover w-full items-center"
+    className="saturate-50 object-cover items-center"
   fill
+  priority
     />
     {/*Location*/}
       <p className = "location absolute inset-0 flex flex-col items-center justify-center text-center px-2 sm:px-4 text-lg sm:text-xl text-white font-semibold">123 Demo Street, London, GN8 4B3</p>

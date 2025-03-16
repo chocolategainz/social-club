@@ -49,15 +49,13 @@ body {
    align-items:center;
    justify-content: center;
   }
- .main-picture {
-  width:100%;
-  align-items:center;
-  justify-content: center;
-  }
-   
  
 }
 
+.main-picture , .secondaryPicture {
+  max-width: 100%;
+  height: 0 auto;
+  }
 
 
 .miltonian-tattoo-regular , .title {
