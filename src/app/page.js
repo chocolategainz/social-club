@@ -6,13 +6,11 @@ export default function Home() {
   return(
   <div className="home">
 
-    <div className="main-picture relative w-full min-h-screen flex items-center justify-center"> 
+    <div className="main-picture relative w-full min-h-screen min-w-screen flex items-center justify-center"> 
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     alt="friends sitting down and talking"
-    width={1920} 
-    height={1080} 
-    layout="responsive"
+    fill
     className="saturate-50 object-cover"
     />
     {/*Location*/}
@@ -91,9 +89,7 @@ className="rounded-full object-cover aspect-square ml-4 shrink-0"
   <Image 
     src="/kobby-mendez-xBFTjrMIC0c-unsplash.jpg"
     alt="A row of 3 cocktail glasses"
-    layout="responsive"
-    width={1920}
-    height={600}
+    fill
     loading="lazy"
     className="saturate-50 mt-8 object-cover"
   />
