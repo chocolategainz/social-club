@@ -14,6 +14,7 @@
   }
 }
 
+
 body {
   color: var(--foreground);
   background: var(--background);
@@ -21,6 +22,8 @@ body {
   color:#ffffff;
   background-color: #880808;
  width: 100%;
+ height: 100%;
+ margin: 0;
 }
 
 .miltonian-tattoo-regular , .title {
