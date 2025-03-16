@@ -23,6 +23,10 @@ body {
   background-color: #880808;
 }
 
+.main-wrapper {
+  width:100%;
+}
+
 .miltonian-tattoo-regular , .title {
   font-family: "Miltonian Tattoo", serif;
   font-weight: 400;

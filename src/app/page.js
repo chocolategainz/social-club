@@ -7,12 +7,12 @@ export default function Home() {
   return(
   <div className="home">
 
-<div className="parent h-screen overflow-hidden">
-    <div className="main-picture relative w-full h-full flex items-center justify-center"> 
+
+    <div className="main-picture h-screen relative w-full h-full flex items-center justify-center"> 
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     alt="friends sitting down and talking"
-    className="saturate-50 object-cover sm:max-w-[420px] max-w-full"
+    className="saturate-50 object-cover sm:min-w-[420px] max-w-full"
     fill
     />
     {/*Location*/}
@@ -20,7 +20,7 @@ src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
  <Animated />
    <Modal />
     </div>
-</div>
+
 
 {/*1*/}
 
@@ -86,15 +86,14 @@ className="rounded-full object-cover aspect-square ml-4 shrink-0"
 </div>
 
 {/*RSVP - Join Us */}
-<div className="secondaryPicture relative aspect-[16/9]">
+<div className="secondaryPicture relative w-full h-[600px] aspect-[16/9]">
 
   <Image 
     src="/kobby-mendez-xBFTjrMIC0c-unsplash.jpg"
     alt="A row of 3 cocktail glasses"
-    width={1700}
-    height={675}
+    fill
     loading="lazy"
-    className="saturate-50 mt-8 object-cover w-full h-auto"
+    className="saturate-50 mt-8 object-cover"
   />
 <div className = "rsvp absolute inset-0 flex flex-col items-center justify-center text-center px-4">
 <h1 className = "overlayTitle absolute bottom-[40%] md:bottom-[60%] text-white" >RSVP</h1>
