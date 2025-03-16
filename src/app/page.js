@@ -6,8 +6,8 @@ export default function Home() {
   return(
   <div className="home">
 
-<div className="parent max-[400px]:max-w-[90%] md:max-w-full lg:max-w-full">
-    <div className="main-picture relative w-full min-h-screen flex items-center justify-center"> 
+<div className="parent h-screen ">
+    <div className="main-picture relative w-full h-full flex items-center justify-center"> 
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     alt="friends sitting down and talking"
