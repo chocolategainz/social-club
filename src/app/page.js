@@ -7,22 +7,20 @@ export default function Home() {
   return(
   <div className="home">
 
-
-    <div className="main-picture h-[calc(100vh)] relative w-full flex items-center justify-center"> 
+<div className = "container  sm:max-w-full">
+    <div className="main-picture h-[calc(100vh)] relative  flex items-center justify-center"> 
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     alt="friends sitting down and talking"
-    className="saturate-50 object-cover"
-  layout="responsive"
-  width={1700}  
-    height={675}
+    className="saturate-50 object-cover w-full"
+  fill
     />
     {/*Location*/}
       <p className = "location absolute inset-0 flex flex-col items-center justify-center text-center px-2 sm:px-4 text-lg sm:text-xl text-white font-semibold">123 Demo Street, London, GN8 4B3</p>
  <Animated />
    <Modal />
     </div>
-
+</div>
 
 {/*1*/}
 
