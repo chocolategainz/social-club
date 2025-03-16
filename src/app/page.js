@@ -10,7 +10,9 @@ export default function Home() {
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     alt="friends sitting down and talking"
-    fill
+    width={1920} 
+    height={1080} 
+    layout="responsive"
     className="saturate-50 object-cover"
     />
     {/*Location*/}
@@ -89,7 +91,9 @@ className="rounded-full object-cover aspect-square ml-4 shrink-0"
   <Image 
     src="/kobby-mendez-xBFTjrMIC0c-unsplash.jpg"
     alt="A row of 3 cocktail glasses"
-    fill
+    layout="responsive"
+    width={1920}
+    height={600}
     loading="lazy"
     className="saturate-50 mt-8 object-cover"
   />
