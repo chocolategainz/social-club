@@ -6,7 +6,7 @@ export default function Home() {
   return(
   <div className="home">
 
-<div className="parent h-screen ">
+<div className="parent h-screen overflow-hidden">
     <div className="main-picture relative w-full h-full flex items-center justify-center"> 
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
