@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Animated from './Animated';
 import Modal from './Modal';
 
+
 export default function Home() {
   return(
   <div className="home">
@@ -11,8 +12,8 @@ export default function Home() {
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     alt="friends sitting down and talking"
+    className="saturate-50 object-cover sm:max-w-[420px] max-w-full"
     fill
-    className="saturate-50 object-cover"
     />
     {/*Location*/}
       <p className = "location absolute inset-0 flex flex-col items-center justify-center text-center px-2 sm:px-4 text-lg sm:text-xl text-white font-semibold">123 Demo Street, London, GN8 4B3</p>
@@ -85,14 +86,15 @@ className="rounded-full object-cover aspect-square ml-4 shrink-0"
 </div>
 
 {/*RSVP - Join Us */}
-<div className="secondaryPicture relative w-full h-[600px] aspect-[16/9]">
+<div className="secondaryPicture relative aspect-[16/9]">
 
   <Image 
     src="/kobby-mendez-xBFTjrMIC0c-unsplash.jpg"
     alt="A row of 3 cocktail glasses"
-    fill
+    width={1700}
+    height={675}
     loading="lazy"
-    className="saturate-50 mt-8 object-cover"
+    className="saturate-50 mt-8 object-cover w-full h-auto"
   />
 <div className = "rsvp absolute inset-0 flex flex-col items-center justify-center text-center px-4">
 <h1 className = "overlayTitle absolute bottom-[40%] md:bottom-[60%] text-white" >RSVP</h1>
