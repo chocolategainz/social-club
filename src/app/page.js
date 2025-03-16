@@ -1,12 +1,13 @@
 import Image from 'next/image';
 import Animated from './Animated';
 import Modal from './Modal';
-import Head from './Document';
+
 
 export default function Home() {
   return(
   <div className="home">
-<Head />
+
+
 
     <div className="main-picture relative flex justify-center min-h-[100vh] w-full"> 
 <Image 
@@ -102,7 +103,9 @@ className="rounded-full object-cover aspect-square ml-4 shrink-0"
   </div>
    <Modal />
 </div>
+
  </div>
+
   );
 };
 
