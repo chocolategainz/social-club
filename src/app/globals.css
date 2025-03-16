@@ -23,7 +23,7 @@ body {
   background-color: #880808;
 }
 
-.main-wrapper {
+.main-wrapper > div {
   width:100%;
 }
 
