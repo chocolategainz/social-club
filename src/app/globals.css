@@ -14,10 +14,6 @@
   }
 }
 
-html {
-  overflow-x:hidden;
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
@@ -34,6 +30,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   margin:0;
+  box-sizing:border-box;
 }
 
 .miltonian-tattoo-regular , .title {
