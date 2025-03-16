@@ -38,6 +38,8 @@ body {
     align-items:center;
     justify-content: center;
   }
+
+ 
 }
 
 @media only screen and (max-width: 448px) and (orientation: portrait) { /*448px or lower*/
@@ -47,6 +49,12 @@ body {
    align-items:center;
    justify-content: center;
   }
+ .main-picture {
+  width:100%;
+  align-items:center;
+  justify-content: center;
+  }
+   
  
 }
 
