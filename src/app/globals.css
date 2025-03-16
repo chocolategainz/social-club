@@ -30,15 +30,25 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   margin:0;
-  box-sizing:border-box;
 }
 
-@media(max-width: 768px) {
+@media only screen and (max-width: 768px) and (orientation:landscape) {
   body {
+    width:100%;
     align-items:center;
     justify-content: center;
   }
 }
+
+@media only screen and (max-width: 448px) and (orientation: portrait) { /*448px or lower*/
+  /* For mobile phones:*/
+  body {
+   width: 100%;   
+  }
+ 
+}
+
+
 
 .miltonian-tattoo-regular , .title {
   font-family: "Miltonian Tattoo", serif;
