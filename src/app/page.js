@@ -6,12 +6,12 @@ export default function Home() {
   return(
   <div className="home">
 
-    <div className="main-picture relative w-full sm:min-w-full flex items-center justify-center"> 
+    <div className="main-picture relative w-full sm:max-w-full flex items-center justify-center"> 
 <Image 
 src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
     alt="friends sitting down and talking"
     fill
-    className="saturate-50 object-cover sm:min-w-full"
+    className="saturate-50 object-cover"
     />
     {/*Location*/}
       <p className = "location absolute inset-0 flex flex-col items-center justify-center text-center px-2 sm:px-4 text-lg sm:text-xl text-white font-semibold">123 Demo Street, London, GN8 4B3</p>
