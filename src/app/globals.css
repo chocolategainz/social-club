@@ -44,7 +44,7 @@ body {
     width:100%;
     height:auto;
   }
-
+  
  
 }
 
@@ -55,8 +55,12 @@ body {
    height: auto;
  
   }
+.finalContent {
+  width: 100vw;
+  height:auto;
 }
 
+}
 
 
 .miltonian-tattoo-regular , .title {
