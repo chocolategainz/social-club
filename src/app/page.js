@@ -25,19 +25,19 @@ src="/johan-mouchet-MCTap3U0bFg-unsplash.jpg"
 {/*1*/}
 <div className = "container mx-auto px-4"> 
 
-<div className = "flex md:flex-row gap-5 items-center mt-8">
+<div className = "flex flex-col md:flex-row gap-5 items-center mt-8">
 <Image
 src="/elevate-snnhGYNqm44-unsplash.jpg"
 alt="A group of friends colliding their beers together at a lively pub"
 loading="lazy"
 width={420}
 height={420}
-className="rounded-full object-cover aspect-square max-w-[420px] md:w-[40%] w-full"
+className="rounded-full object-cover aspect-square max-w-[420px] md:w-[40%] sm:w-[80%] w-full"
 />
 
 
-<div className = "flex-1 text-center md:text-left mt-4 md:mt-0 mt-8">
- <h1 className = "title text-xl font-bold">Good Vibes</h1> 
+<div className = "flex-1 text-center md:text-left mt-4 md:mt-0">
+ <h1 className = "title">Good Vibes</h1> 
 <p className = "leading-relaxed text-sm sm:text-base md:text-lg"> 
 A lively beer-tasting event brings together friends and strangers alike to sample a variety of craft brews while enjoying good conversation. 
 With live music playing in the background and a relaxed atmosphere, attendees raise their glasses, share their favorite flavors, and connect over their love for great beer.  
@@ -46,24 +46,24 @@ With live music playing in the background and a relaxed atmosphere, attendees ra
 </div>
 
 {/*2*/}
-<div className="flex items-center gap-5 mx-4 mt-8"> 
- <div className="flex-1">
- <h1 className="title text-xl font-bold">Get Lit</h1> 
-<p className ="leading-relaxed"> 
-A vibrant party pulses with energy as friends and newcomers alike dance to the rhythm of the music, their laughter blending with the beat. 
-With drinks in hand and a shared excitement in the air, the night becomes a celebration of togetherness, where every moment is filled with joy, connection, and unforgettable memories.
-</p>
- </div> 
+<div className="flex flex-col md:flex-row-reverse items-center gap-5 mx-4 mt-8">
+  <div className="flex-1 text-center md:text-left">
+    <h1 className="title">Get Lit</h1> 
+    <p className="leading-relaxed"> 
+      A vibrant party pulses with energy as friends and newcomers alike dance to the rhythm of the music, their laughter blending with the beat. 
+      With drinks in hand and a shared excitement in the air, the night becomes a celebration of togetherness, where every moment is filled with joy, connection, and unforgettable memories.
+    </p>
+  </div>
 
-<Image
-src="/yingyi-dai-khJJqciKS10-unsplash.jpg"
-alt="A lit up sign saying 'Let's Party'"
-loading="lazy"
-width={420}
-height={420}
-className="rounded-full object-cover aspect-square max-w-[420px] md:w-[40%] w-full"/>
+  <Image
+    src="/yingyi-dai-khJJqciKS10-unsplash.jpg"
+    alt="A lit up sign saying 'Let's Party'"
+    loading="lazy"
+    width={420}
+    height={420}
+    className="rounded-full object-cover aspect-square max-w-[420px] md:w-[40%] sm:w-[80%] w-full"
+  />
 </div>
-
 
 {/*3*/}
 
@@ -74,16 +74,16 @@ alt="paper cut out human figures joined hand in hand"
 loading="lazy"
 width={420}
 height={420}
-className="rounded-full object-cover aspect-square w-full max-w-[420px] md:w-[40%]"
+className="rounded-full object-cover aspect-square w-full max-w-[420px] md:w-[40%] sm:w-[80%]"
 />
 
 
-<div className = "flex-1 text-center md:text-left md:mt-0">
-  <h1 className = "title text-xl font-bold">Togetherness</h1>
-  <p className = "line-clamp-4 leading-relaxed text-sm sm:text-base md:text-lg">
+<div className = "flex-1 text-center md:text-left">
+  <h1 className = "title">Togetherness</h1>
+  <p className = "leading-relaxed">
   Our community gathering fills the space with laughter and conversation as people come together to share stories, enjoy good food, and build new connections.
   </p>
- </div>
+  </div>
  </div>
 </div>
 
