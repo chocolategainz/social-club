@@ -38,7 +38,7 @@ className="rounded-full object-cover aspect-square max-w-[420px] md:w-[40%] sm:w
 
 <div className = "flex-1 text-center md:text-left mt-4 md:mt-0">
  <h1 className = "title">Good Vibes</h1> 
-<p className = "leading-relaxed text-sm sm:text-base md:text-lg"> 
+<p className = "leading-relaxed"> 
 A lively beer-tasting event brings together friends and strangers alike to sample a variety of craft brews while enjoying good conversation. 
 With live music playing in the background and a relaxed atmosphere, attendees raise their glasses, share their favorite flavors, and connect over their love for great beer.  
 </p>
@@ -46,16 +46,8 @@ With live music playing in the background and a relaxed atmosphere, attendees ra
 </div>
 
 {/*2*/}
-<div className="flex flex-col md:flex-row-reverse items-center gap-5 mx-4 mt-8">
-  <div className="flex-1 text-center md:text-left">
-    <h1 className="title">Get Lit</h1> 
-    <p className="leading-relaxed"> 
-      A vibrant party pulses with energy as friends and newcomers alike dance to the rhythm of the music, their laughter blending with the beat. 
-      With drinks in hand and a shared excitement in the air, the night becomes a celebration of togetherness, where every moment is filled with joy, connection, and unforgettable memories.
-    </p>
-  </div>
-
-  <Image
+<div className="flex flex-col md:flex-row items-center gap-5 mt-8">
+ <Image
     src="/yingyi-dai-khJJqciKS10-unsplash.jpg"
     alt="A lit up sign saying 'Let's Party'"
     loading="lazy"
@@ -63,6 +55,14 @@ With live music playing in the background and a relaxed atmosphere, attendees ra
     height={420}
     className="rounded-full object-cover aspect-square max-w-[420px] md:w-[40%] sm:w-[80%] w-full"
   />
+
+  <div className="flex-1 text-center md:text-left">
+    <h1 className="title">Get Lit</h1> 
+    <p className="leading-relaxed"> 
+      A vibrant party pulses with energy as friends and newcomers alike dance to the rhythm of the music, their laughter blending with the beat. 
+      With drinks in hand and a shared excitement in the air, the night becomes a celebration of togetherness, where every moment is filled with joy, connection, and unforgettable memories.
+    </p>
+  </div>
 </div>
 
 {/*3*/}
@@ -77,7 +77,6 @@ height={420}
 className="rounded-full object-cover aspect-square w-full max-w-[420px] md:w-[40%] sm:w-[80%]"
 />
 
-
 <div className = "flex-1 text-center md:text-left">
   <h1 className = "title">Togetherness</h1>
   <p className = "leading-relaxed">
@@ -85,6 +84,7 @@ className="rounded-full object-cover aspect-square w-full max-w-[420px] md:w-[40
   </p>
   </div>
  </div>
+
 </div>
 
 {/*RSVP - Join Us*/} 
