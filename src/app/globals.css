@@ -59,6 +59,9 @@ body {
   width: 100vw;
   height:auto;
 }
+#finalTitle {
+font-size: 4rem;
+}
 
 }
 

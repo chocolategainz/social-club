@@ -78,7 +78,7 @@ className="rounded-full object-cover aspect-square w-full max-w-[420px] md:w-[40
 />
 
 <div className = "finalContent flex-1 text-center md:text-left">
-  <h1 className = "title">Togetherness</h1>
+  <h1 className = "title" id = "finalTitle">Togetherness</h1>
   <p className = "leading-relaxed">
   Our community gathering fills the space with laughter and conversation as people come together to share stories, enjoy good food, and build new connections.
   </p>
